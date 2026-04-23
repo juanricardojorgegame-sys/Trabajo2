@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="inicio.html">
+                <img src="h.jpg" alt="logo">
+            </a>
+        </div>
+        <nav class="menu">
+            <a href="inicio.html">Inicio</a>
+            <a class="active" href="servicios.html">Servicios</a>
+            <a href="contactanos.html">Contáctanos</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <a class="back-button" href="inicio.html">Regresar a la página principal</a>
+        <section class="page-hero">
+            <h1>Servicios</h1>
+            <p>Encuentra soporte especializado para tu banda, mejoras cibernéticas y misiones de alto riesgo en Night City.</p>
+        </section>
+
+        <section class="service-grid">
+            <article class="service-card">
+                <h2>Ripperdoc</h2>
+                <p>Instalación segura de implantes y upgrades de combate con tecnología de última generación.</p>
+            </article>
+            <article class="service-card">
+                <h2>Hackeo</h2>
+                <p>Intervenciones digitales, acceso a redes corporativas y protección contra rastreadores enemigos.</p>
+            </article>
+            <article class="service-card">
+                <h2>Escaneo y vigilancia</h2>
+                <p>Mapea la ciudad, rastrea objetivos y mantente siempre un paso adelante en cada operación.</p>
+            </article>
+        </section>
+        <section>
+            <h2>Contacto</h2>
+            <form action="guardar.php" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" placeholder="tuemail@ejemplo.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="¿En qué puedo ayudarte?" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">Hecha por Ivan y Juan</footer>
+    </main>
+    
+</body>
+</html>

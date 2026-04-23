@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="inicio.html">
+                <img src="h.jpg" alt="logo">
+            </a>
+        </div>
+        <nav class="menu">
+            <a href="inicio.html">Inicio</a>
+            <a href="servicios.html">Servicios</a>
+            <a class="active" href="contactanos.html">Contáctanos</a>
+        </nav>
+    </header>
+
+    <main class="content">
+        <a class="back-button" href="inicio.html">Regresar a la página principal</a>
+        <section class="page-hero">
+            <h1>Contacto</h1>
+            <p>En un mundo de ruido estático y neón barato, nosotros ofrecemos la señal pura. No buscamos empleados, buscamos piezas clave para el motor del mañana. Su trayectoria ha sido analizada por personas altamente calificadas y los resultados son... satisfactorios.</p>
+        </section>
+
+        <section class="contact-grid">
+            <form class="contact-form" action="#" method="post">
+                <h2>Enviar mensaje</h2>
+                <label for="nombre">Nombre completo</label>
+                <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+
+                <label for="email">Correo electrónico</label>
+                <input id="email" name="email" type="email" placeholder="tunombre@correo.com" required>
+
+                <label for="asunto">Asunto</label>
+                <input id="asunto" name="asunto" type="text" placeholder="¿Sobre qué quieres escribir?" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">Hecha por Ivan y Juan</footer>
+</body>
+</html>
